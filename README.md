@@ -1,46 +1,13 @@
-# Getting Started with Create React App
+# Test React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* User can select one or multiple tests to take at once
+* User will go through a series of questions based on test selected and will answer those questions to record
+  * Each page/section will show one question/answer to the user
+  * If the user refreshes, must be able to keep track of where user left off
+  * Will need a summary page to showcase the user's answers to the questions and show a PASS or FAIL
 
-## Available Scripts
+# Goals for Pull Request
 
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Look to see how we can refactor from the current setup where each test selected will show it's individual page with all questions shown. Ultimately, will need to created a shared component to go through each test, show one question/answer based on tests selected with previous/next buttons
+* Looking for improvements on current code and/or recommendations to help acheive bullet item #1. That entails third-party plugins we can use, creative logic to use as a service, and etc.
+* Looking for best practices, DRY, and clean code implementations on the code base itself. That entails for both React and Typescript
